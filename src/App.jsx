@@ -35,11 +35,11 @@ function App() {
     "HTML",
     "CSS",
     "JavaScript",
-    "Angular(TS)",
-    "React(JSX)",
     "jQuery",
     "Bootstrap",
     "Tailwind CSS",
+    "Angular(TS)",
+    "React(JSX)",
     "C#",
     "ASP.NET",
     "PHP",
@@ -55,7 +55,7 @@ function App() {
       id: 1,
       image: '/images/PacificNetworksINCImg.png',
       title: "PacificNetworksINC",
-      description: "A team project developed during my training at Simpaz, building a full website using HTML, CSS, and JavaScript.",
+      description: "A team project developed during my training at Simpaz, building a full website using HTML, CSS, JavaScript and JQuery. ",
       techs: [
         "HTML",
         "CSS",
@@ -67,7 +67,7 @@ function App() {
       id: 2,
       image: '/images/StudentCrudImg.png',
       title: "Student Crud Operation",
-      description: "A small CRUD application built with HTML, CSS and JavaScript, featuring Add, Copy, Edit, Update and Delete student functionality using Local Storage.",
+      description: "A small CRUD application built with HTML, CSS and JavaScript, featuring Add, Copy, Edit, Update and Delete student with storing data on Local Storage.",
       techs: [
         "HTML",
         "CSS",
@@ -79,7 +79,7 @@ function App() {
       id: 3,
       image: '/images/EmployeelistImg.png',
       title: "Employee List",
-      description: "A small CRUD application built with Angular Framework and TypeScript, featuring Add, Copy, Edit, Update and Delete employee functionality using Local Storage.",
+      description: "A small CRUD application built with Angular Framework with TypeScript, featuring Add, Copy, Edit, Update and Delete employee with storing data on Local Storage.",
       techs: [
         "Angular(TS)",
         "Bootstrap",
@@ -90,7 +90,7 @@ function App() {
       id: 4,
       image: '/images/TodoAppImg.png',
       title: "Todo App",
-      description: "This is TodoApp built with React(JSX), using redux and redux-persist to sync with Local Storage.",
+      description: "This is TodoApp built with React(JSX) and Tailwind CSS for styling, using redux and redux-persist to sync with Local Storage.",
       techs: [
         "React(JSX)",
         "Tailwind CSS",
@@ -101,7 +101,7 @@ function App() {
       id: 5,
       image: '/images/NewthingImg.png',
       title: "NewThing Website",
-      description: "NewThing is a website that show some information out of space with focus complexibility responsive layout.",
+      description: "NewThing is a static website that show some information out of space and focus complexibility responsive layout.",
       techs: [
         "React(JSX)",
         "Bootstrap"
@@ -112,7 +112,7 @@ function App() {
       id: 6,
       image: '/images/CleaningImg.png',
       title: "Cleaning",
-      description: "This is a Cleaning website that built with Laravel and integrated with telegram chat.",
+      description: "This is a Cleaning website that built with Laravel Web-Framework and integrated with telegram chat. On the Contact page, users or customers can send message directly from the website to telegram.",
       techs: [
         "Laravel",
         "Bootstrap"
@@ -123,7 +123,7 @@ function App() {
       id: 7,
       image: '/images/GameshopImg.png',
       title: "Game-Shop eCommerce",
-      description: "A Gameshop eCommerce Application built with React.jsx, using Local Storage to store data.",
+      description: "A Gameshop eCommerce is Application built with React(JSX) and Bootstrap, using Local Storage to store data. Users can add to Favorite and Cart.",
       techs: [
         "React(JSX)",
         "Bootstrap",
@@ -134,7 +134,7 @@ function App() {
       id: 8,
       image: '/images/ProductNiceImg.png',
       title: "ProductNice eCommerce",
-      description: "ProductNice was an ecommerce project that get data from fake API, also built with state management that store data in local storage and has add to cart, login, logout feature.",
+      description: "ProductNice was an ecommerce-frontend project that integrated with fake API, also built with state management(redux and redux-persist) to store data on local storage and has add to cart, login, logout... feature.",
       techs: [
         "React(JSX)",
         "Tailwind CSS"
@@ -145,7 +145,7 @@ function App() {
       id: 9,
       image: '/images/TrainAppImg.png',
       title: "Train Crud Operation",
-      description: "This is a Trainapp project use to create an account for Passengers. By using React.jsx for front-end, ASP.Net + MySQL for back-end and also working with AuthMiddleware.",
+      description: "This is a Trainapp project use to create an account for Passengers. By using React(JSX) for Frontend, ASP.Net + MySQL for Backend and also working with API authentication.",
       techs: [
         "React(JSX)",
         "ASP.NET",
@@ -157,7 +157,7 @@ function App() {
       id: 10,
       image: '/images/PatiendCrudImg.png',
       title: "Patient Crud Operation",
-      description: "This is a small Patient Crud operation project use to create patient information. Develop by using Angular Framework for front-end, ASP.NET + MySQL for back-end and also working with AuthMiddleware.",
+      description: "This is a small Patient Crud operation project use to create patient information. Develop by using Angular(TS) Framework for Frontend, ASP.NET + MySQL for Backend and include with  API authentication.",
       techs: [
         "Angular(TS)",
         "ASP.NET",
@@ -169,7 +169,7 @@ function App() {
       id: 11,
       image: '/images/StockCrudImg.png',
       title: "Crud Stock",
-      description: "This is a smiple Crud Stock project working with Laravel + Responsive.",
+      description: "This is a simple Crud Stock project working with Laravel + MySQl.",
       techs: [
         "Laravel",
         "Bootstrap",
@@ -180,7 +180,7 @@ function App() {
       id: 12,
       image: '/images/FacenoteImg.png',
       title: "Facenote",
-      description: "This is a blog app can be posting and share any activity, built with Angular and ASP.NET + MySQL, Working with Request JWT Token and OTP.",
+      description: "This is a blog app can be posting and share any activity, built with Angular(TS) and ASP.NET + MySQL, Working with Request JWT Token when Signin and request OTP code when Signup.",
       techs: [
         "Angular(TS)",
         "ASP.NET",
@@ -192,7 +192,7 @@ function App() {
       id: 13,
       image: '/images/ThirstyEcommerceImg.png',
       title: "Thirsty eCommerce",
-      description: "Thirty eCommerce was a mini enterprise project that develop by separated 3 different projects, also working with Login or Signup before Order.",
+      description: "Thirty eCommerce was a mini enterprise project that develop by separated 3 different projects, eCommerce for customers, System for admin and ASP.NET with MySQl for storing data also working with Signup and Signin before Order.",
       techs: [
         "Angular(TS)",
         "ASP.NET",
@@ -200,11 +200,11 @@ function App() {
       ],
       source: "https://github.com/seanghorchheat1222/drinkproject"
     },
-     {
+    {
       id: 14,
       image: '/images/HelperImg.png',
       title: "Helper System",
-      description: "Helper System is a hospital system, that has a feature that referent to real world work flow in hospital.",
+      description: "Helper System is a hospital system built with React(JSX) and PHP + MySQL, Some work flow on the application is base on the real world work flow, Like add patient then checkin or checkout room.",
       techs: [
         "React(JSX)",
         "PHP",
@@ -520,7 +520,7 @@ function App() {
           </div>
           <div className='flex justify-end mt-1 md:mt-13'>
             <p className='md:w-[45%] text-[rgba(255,255,255,0.70)]'>
-              I am 22-year-old, Fresh graduate Computer Science from the Royal University of Phnom Penh with focus on Web Development. I have hands-on experience working with HTML, CSS, JavaScript, JQuery, Bootstrap, Tailwind CSS, C#, React(JSX), Angular(TS), ASP.NET, Laravel, MySQL and NoSQL.<br></br>I am a self-motivated, reliable, responsible, and able to follow directions effectively. I communicate well with others, work frankly and honestly, and bring a strong commitment and creativity to every project I work on.<br></br>I am particularly excited about the opportunity to apply my skills and grow as a Web Development within your team, where I can gaining more skills and experiences from experienced developers.
+              I am 22-year-old, Fresh graduate Computer Science from the Royal University of Phnom Penh with focus on Web Developer. I have hands-on experience working with HTML, CSS, JavaScript, JQuery, Bootstrap, Tailwind CSS, React(JSX), Angular(TS), C#, ASP.NET, PHP, Laravel, MySQL and NoSQL.<br></br>I am a self-motivated, reliable, responsible, and able to follow directions effectively. I communicate well with others, work frankly and honestly, and bring a strong commitment and creativity to every project I work on.<br></br>I am particularly excited about the opportunity to apply my skills and grow as a Web Developer within your team, where I can gaining more skills and experiences and learn from senior colleagues.
             </p>
           </div>
           <div className='md:w-[45%] mt-3 md:mt-15 flex justify-center flex-col md:hidden'>
