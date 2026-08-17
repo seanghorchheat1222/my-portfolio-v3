@@ -79,7 +79,7 @@ function App() {
       id: 3,
       image: '/images/EmployeelistImg.png',
       title: "Employee List",
-      description: "A small CRUD application built with Angular Framework with TypeScript, featuring Add, Copy, Edit, Update and Delete employee with storing data on Local Storage.",
+      description: "A small CRUD application built with Angular(TS) Framework with TypeScript, featuring Add, Copy, Edit, Update and Delete employee with storing data on Local Storage.",
       techs: [
         "Angular(TS)",
         "Bootstrap",
@@ -123,7 +123,7 @@ function App() {
       id: 7,
       image: '/images/GameshopImg.png',
       title: "Game-Shop eCommerce",
-      description: "A Gameshop eCommerce is Application built with React(JSX) and Bootstrap, using Local Storage to store data. Users can add to Favorite and Cart.",
+      description: "An Gameshop eCommerce is Application built with React(JSX) and Bootstrap, using Local Storage to store data. Users can add items to Favorite or Cart.",
       techs: [
         "React(JSX)",
         "Bootstrap",
@@ -192,7 +192,7 @@ function App() {
       id: 13,
       image: '/images/ThirstyEcommerceImg.png',
       title: "Thirsty eCommerce",
-      description: "Thirty eCommerce was a mini enterprise project that develop by separated 3 different projects, eCommerce for customers, System for admin and ASP.NET with MySQl for storing data also working with Signup and Signin before Order.",
+      description: "Thirty eCommerce was a mini enterprise project that develop by separated 3 different projects, eCommerce for customers, System for admin and ASP.NET + MySQl for storing-data(API) also working with Signup or Signin before Order.",
       techs: [
         "Angular(TS)",
         "ASP.NET",
@@ -631,9 +631,9 @@ function App() {
               </button>
             </div>
           </form>
-          <div className='flex justify-end mt-3'>
+          <div className='flex justify-end mt-2'>
             <button className='text-[rgba(255,255,255,0.70)] cursor-pointer hover:text-[rgba(255,255,255,100)] transition-all duration-300 ease-in-out' onClick={() => toEmail()}>
-              <a target='_blank'>Email: seanghorchheat@gmail.com</a>
+              <a target='_blank' className='text-sm'>Email: seanghorchheat@gmail.com</a>
             </button>
           </div>
         </section>
