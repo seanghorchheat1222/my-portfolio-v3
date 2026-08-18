@@ -44,7 +44,7 @@ function App() {
     "ASP.NET",
     "PHP",
     "Laravel",
-    "MySQL",
+    "SQL Server Management",
     "MongoDB",
     "Git",
     "GitHub",
@@ -55,7 +55,7 @@ function App() {
       id: 1,
       image: '/images/PacificNetworksINCImg.png',
       title: "PacificNetworksINC",
-      description: "A team project developed during my training at Simpaz, building a full website using HTML, CSS, JavaScript and JQuery. ",
+      description: "A team project developed during my training at Simpaz, building a full website using HTML, CSS, JavaScript and jQuery. ",
       techs: [
         "HTML",
         "CSS",
@@ -520,7 +520,7 @@ function App() {
           </div>
           <div className='flex justify-end mt-1 md:mt-13'>
             <p className='md:w-[45%] text-[rgba(255,255,255,0.70)]'>
-              I am 22-year-old, Fresh graduate Computer Science from the Royal University of Phnom Penh with focus on Web Developer. I have hands-on experience working with HTML, CSS, JavaScript, JQuery, Bootstrap, Tailwind CSS, React(JSX), Angular(TS), C#, ASP.NET, PHP, Laravel, MySQL and NoSQL.<br></br>I am a self-motivated, reliable, responsible, and able to follow directions effectively. I communicate well with others, work frankly and honestly, and bring a strong commitment and creativity to every project I work on.<br></br>I am particularly excited about the opportunity to apply my skills and grow as a Web Developer within your team, where I can gaining more skills and experiences and learn from senior colleagues.
+              I am 22-year-old, Fresh graduate Computer Science from the Royal University of Phnom Penh with focus on Web Development. I have hands-on experience working with HTML, CSS, JavaScript, jQuery, Bootstrap, Tailwind CSS, React(JSX), Angular(TS), C#, ASP.NET, PHP, Laravel, SQL, NoSQL, Git and GitHub.<br></br>I am a self-motivated, reliable, responsible, and able to follow directions effectively. I communicate well with others, work frankly and honestly, and bring a strong commitment and creativity to every project I work on.<br></br>I am particularly excited about the opportunity to apply my skills and grow as a Web Developer within your team, where I can gaining more skills, experiences and learn from senior colleagues.
             </p>
           </div>
           <div className='md:w-[45%] mt-3 md:mt-15 flex justify-center flex-col md:hidden'>
@@ -624,7 +624,7 @@ function App() {
                 <div className='p-0.5 rounded-full bg-[linear-gradient(to_right,rgba(255,255,255,0.50)_0%,rgba(0,0,0,0.50)_102%)] group-hover:bg-[linear-gradient(to_right,rgba(255,255,255,0.50)_100%,rgba(0,0,0,0.50)_100%)] transition-all duration-300 ease-in-out group-hover:shadow-[0px_0px_10px_rgba(255,255,255,0.50)] flex justify-center items-center'>
                   <div className='bg-[rgba(0,0,0,100)] rounded-full w-full'>
                     <div className='px-5 md:px-15 py-1.5 rounded-full curosr-pointer bg-[rgba(255,255,255,0.05)] relative z-1 group-active:bg-[rgba(255,255,255,0.70)] w-full'>
-                      <div>Sent Message</div>
+                      <div>Send Message</div>
                     </div>
                   </div>
                 </div>
