@@ -391,7 +391,7 @@ function App() {
       <div className={`fixed w-full h-full z-10 bg-[rgba(0,0,0,100)] justify-center items-center  ${isLoading ? 'flex' : 'hidden'} `}>
         <div className='max-w'>
           <div className='text-[rgba(255,255,255,100)]'>Welcome to my Portfolio</div>
-          <div className='bg-[rgba(255,255,255,0.70)] h-px relative mt-1 animate-move'>
+          <div className='bg-[rgba(255,255,255,0.70)] h-px relative animate-move'>
             <div className='h-1 w-1 absolute bg-[rgba(255,255,255,0.70)] rounded-full top-[50%] translate-y-[-50%] left-full'></div>
           </div>
         </div>
@@ -584,7 +584,7 @@ function App() {
                           }
 
                         </div>
-                        <button className="text-[rgba(255,255,255,0.70)] cursor-pointer active:text-[rgba(255,255,255,100)] underline-offset-2 relative hover:text-[rgba(255,255,255,100)] transition-all duration-300 ease-in-out  md:after:content-[''] after:w-[0%] after:h-px after:bg-[rgba(255,255,255,100)] hover:after:w-full after:absolute after:bottom-0.75 after:left-0 after:transition-all after:ease-in-out after:duration-300 underline md:no-underline">
+                        <button className="text-[rgba(255,255,255,0.70)] cursor-pointer active:text-[rgba(255,255,255,100)] underline-offset-4 relative hover:text-[rgba(255,255,255,100)] transition-all duration-300 ease-in-out  md:after:content-[''] after:w-[0%] after:h-px after:bg-[rgba(255,255,255,100)] hover:after:w-full after:absolute after:bottom-px after:left-0 after:transition-all after:ease-in-out after:duration-300 underline md:no-underline">
                           <a className='no-underline' href={project.source} target='_blank'>→ Source Here</a>
                         </button>
                       </div>
@@ -605,7 +605,7 @@ function App() {
                           }
 
                         </div>
-                        <button className="text-[rgba(255,255,255,0.70)]  cursor-pointer active:text-[rgba(255,255,255,100)] underline-offset-2 relative hover:text-[rgba(255,255,255,100)] transition-all duration-300 ease-in-out  md:after:content-[''] after:w-[0%] after:h-px after:bg-[rgba(255,255,255,100)] hover:after:w-full after:absolute after:bottom-0.75 after:left-0 after:transition-all after:ease-in-out after:duration-300 underline md:no-underline">
+                        <button className="text-[rgba(255,255,255,0.70)]  cursor-pointer active:text-[rgba(255,255,255,100)] underline-offset-4 relative hover:text-[rgba(255,255,255,100)] transition-all duration-300 ease-in-out  md:after:content-[''] after:w-[0%] after:h-px after:bg-[rgba(255,255,255,100)] hover:after:w-full after:absolute after:bottom-px after:left-0 after:transition-all after:ease-in-out after:duration-300 underline md:no-underline">
                           <a className='no-underline' href={project.source} target='_blank'>→ Source Here</a>
                         </button>
                       </div>
@@ -621,7 +621,7 @@ function App() {
 
         <section id='contact' className='mt-15 pb-5 md:pb-15'>
           <h1 className='text-xl md:text-2xl lg:text-3xl text-center md:text-start'>Contact</h1>
-          <div className='text-[rgba(255,255,255,0.70)]'>Let talk!</div>
+          <div className='text-[rgba(255,255,255,0.70)] text-sm'>Let talk!</div>
 
           <form ref={form} onSubmit={sendEmail} action="">
             <div className='grid grid-cols-1 md:grid-cols-2 gap-[10%]'>
