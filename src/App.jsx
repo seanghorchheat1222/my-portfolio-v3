@@ -65,40 +65,6 @@ function App() {
     },
     {
       id: 2,
-      image: '/images/StudentCrudImg.png',
-      title: "Student Crud Operation",
-      description: "A small CRUD application built with HTML, CSS and JavaScript, featuring Add, Copy, Edit, Update and Delete student with storing data on Local Storage.",
-      techs: [
-        "HTML",
-        "CSS",
-        "JavaScript",
-      ],
-      source: "https://github.com/seanghorchheat1222/Student-Crud"
-    },
-    {
-      id: 3,
-      image: '/images/EmployeelistImg.png',
-      title: "Employee List",
-      description: "A small CRUD application built with Angular(TS) Framework with TypeScript, featuring Add, Copy, Edit, Update and Delete employee with storing data on Local Storage.",
-      techs: [
-        "Angular(TS)",
-        "Bootstrap",
-      ],
-      source: "https://github.com/seanghorchheat1222/Employee-list"
-    },
-    {
-      id: 4,
-      image: '/images/TodoAppImg.png',
-      title: "Todo App",
-      description: "This is TodoApp built with React(JSX) and Tailwind CSS for styling, using redux and redux-persist to sync with Local Storage.",
-      techs: [
-        "React(JSX)",
-        "Tailwind CSS",
-      ],
-      source: "https://github.com/seanghorchheat1222/TodoApp"
-    },
-    {
-      id: 5,
       image: '/images/NewthingImg.png',
       title: "NewThing Website",
       description: "NewThing is a static website that show some information out of space and focus complexibility responsive layout.",
@@ -109,7 +75,7 @@ function App() {
       source: "https://github.com/seanghorchheat1222/new-project"
     },
     {
-      id: 6,
+      id: 3,
       image: '/images/CleaningImg.png',
       title: "Cleaning",
       description: "This is a Cleaning website that built with Laravel Web-Framework and integrated with telegram chat. On the Contact page, users or customers can send message directly from the website to telegram.",
@@ -120,7 +86,7 @@ function App() {
       source: "https://github.com/seanghorchheat1222/Cleaning-Website"
     },
     {
-      id: 7,
+      id: 4,
       image: '/images/GameshopImg.png',
       title: "Game-Shop eCommerce",
       description: "An Gameshop eCommerce is Application built with React(JSX) and Bootstrap, using Local Storage to store data. Users can add items to Favorite or Cart.",
@@ -131,7 +97,7 @@ function App() {
       source: "https://github.com/seanghorchheat1222/game-shop"
     },
     {
-      id: 8,
+      id: 5,
       image: '/images/ProductNiceImg.png',
       title: "ProductNice eCommerce",
       description: "ProductNice was an ecommerce-frontend project that integrated with fake API, also built with state management(redux and redux-persist) to store data on local storage and has add to cart, login, logout... feature.",
@@ -142,42 +108,7 @@ function App() {
       source: "https://github.com/seanghorchheat1222/ProductNice-Ecommerce"
     },
     {
-      id: 9,
-      image: '/images/TrainAppImg.png',
-      title: "Train Crud Operation",
-      description: "This is a Trainapp project use to create an account for Passengers. By using React(JSX) for Frontend, ASP.Net + MySQL for Backend and also working with API authentication.",
-      techs: [
-        "React(JSX)",
-        "ASP.NET",
-        "MySQL"
-      ],
-      source: "https://github.com/seanghorchheat1222/trainapp"
-    },
-    {
-      id: 10,
-      image: '/images/PatiendCrudImg.png',
-      title: "Patient Crud Operation",
-      description: "This is a small Patient Crud operation project use to create patient information. Develop by using Angular(TS) Framework for Frontend, ASP.NET + MySQL for Backend and include with  API authentication.",
-      techs: [
-        "Angular(TS)",
-        "ASP.NET",
-        "MySQL"
-      ],
-      source: "https://github.com/seanghorchheat1222/PatientCrud"
-    },
-    {
-      id: 11,
-      image: '/images/StockCrudImg.png',
-      title: "Crud Stock",
-      description: "This is a simple Crud Stock project working with Laravel + MySQl.",
-      techs: [
-        "Laravel",
-        "Bootstrap",
-      ],
-      source: "https://github.com/seanghorchheat1222/Crudstock"
-    },
-    {
-      id: 12,
+      id: 6,
       image: '/images/FacenoteImg.png',
       title: "Facenote",
       description: "This is a blog app can be posting and share any activity, built with Angular(TS) and ASP.NET + MySQL, Working with Request JWT Token when Signin and request OTP code when Signup.",
@@ -189,7 +120,7 @@ function App() {
       source: "https://github.com/seanghorchheat1222/Facenote"
     },
     {
-      id: 13,
+      id: 7,
       image: '/images/ThirstyEcommerceImg.png',
       title: "Thirsty eCommerce",
       description: "Thirty eCommerce was a mini enterprise project that develop by separated 3 different projects, eCommerce for customers, System for admin and ASP.NET + MySQl for storing-data(API) also working with Signup or Signin before Order.",
@@ -201,7 +132,7 @@ function App() {
       source: "https://github.com/seanghorchheat1222/drinkproject"
     },
     {
-      id: 14,
+      id: 8,
       image: '/images/HelperImg.png',
       title: "Helper System",
       description: "Helper System is a hospital system built with React(JSX) and PHP + MySQL, Some work flow on the application is base on the real world work flow, Like add patient then checkin or checkout room.",
@@ -213,7 +144,7 @@ function App() {
       source: "https://github.com/seanghorchheat1222/helper"
     },
     {
-      id: 15,
+      id: 9,
       image: '/images/ogreencoffeeposImg.png',
       title: "OGreenGroundCoffee Pos",
       description: "This is a Pos system for Cashier only, Integrated with Sandbox ABA Payway, Dynamic QR code, tracking payment Succeed or Failed before store orderitems.",
@@ -584,7 +515,7 @@ function App() {
                           }
 
                         </div>
-                        <button className="text-[rgba(255,255,255,0.70)] cursor-pointer active:text-[rgba(255,255,255,100)] underline-offset-4 relative hover:text-[rgba(255,255,255,100)] transition-all duration-300 ease-in-out  md:after:content-[''] after:w-[0%] after:h-px after:bg-[rgba(255,255,255,100)] hover:after:w-full after:absolute after:bottom-px after:left-0 after:transition-all after:ease-in-out after:duration-300 underline md:no-underline">
+                        <button className="text-[rgba(255,255,255,0.70)] cursor-pointer active:text-[rgba(255,255,255,100)] underline-offset-4 relative hover:text-[rgba(255,255,255,100)] transition-all duration-300 ease-in-out  md:after:content-[''] after:w-[0%] after:h-0  md:after:h-px after:bg-[rgba(255,255,255,100)] hover:after:w-full after:absolute after:bottom-px after:left-0 after:transition-all after:ease-in-out after:duration-300  underline md:no-underline">
                           <a className='no-underline' href={project.source} target='_blank'>→ Source Here</a>
                         </button>
                       </div>
@@ -605,7 +536,7 @@ function App() {
                           }
 
                         </div>
-                        <button className="text-[rgba(255,255,255,0.70)]  cursor-pointer active:text-[rgba(255,255,255,100)] underline-offset-4 relative hover:text-[rgba(255,255,255,100)] transition-all duration-300 ease-in-out  md:after:content-[''] after:w-[0%] after:h-px after:bg-[rgba(255,255,255,100)] hover:after:w-full after:absolute after:bottom-px after:left-0 after:transition-all after:ease-in-out after:duration-300 underline md:no-underline">
+                        <button className="text-[rgba(255,255,255,0.70)]  cursor-pointer active:text-[rgba(255,255,255,100)] underline-offset-4 relative hover:text-[rgba(255,255,255,100)] transition-all duration-300 ease-in-out  md:after:content-[''] after:w-[0%] after:h-0  md:after:h-px after:bg-[rgba(255,255,255,100)] hover:after:w-full after:absolute after:bottom-px after:left-0 after:transition-all after:ease-in-out after:duration-300 underline md:no-underline">
                           <a className='no-underline' href={project.source} target='_blank'>→ Source Here</a>
                         </button>
                       </div>
