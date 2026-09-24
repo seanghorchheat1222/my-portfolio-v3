@@ -155,6 +155,18 @@ function App() {
       ],
       source: "https://github.com/seanghorchheat1222/ogreencoffee-pos"
     },
+    {
+      id: 10,
+      image: '/images/carrentalImg.png',
+      title: "Carrental System",
+      description: "Carrental system for Admin + Website for customer can booking. Built with Authentication, Focus on business logic and Joining tables.",
+      techs: [
+        "React(JSX)",
+        "Laravel",
+        "MySQL"
+      ],
+      source: "https://github.com/seanghorchheat1222/car_rental"
+    },
   ]
 
   const onPopup = (id) => {
