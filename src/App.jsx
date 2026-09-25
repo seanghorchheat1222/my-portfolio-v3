@@ -609,10 +609,10 @@ function App() {
           </div>
         </div>
 
-        {isalertMessage && (
-          <div className="  w-[95%] sm:w-[80%] md:w-[70%] lg:w-[50%] xl:w-[30%] h-[40%] bg-[rgba(0,0,0,0.40)] fixed left-[50%] translate-x-[-50%] top-[50%] translate-y-[-50%] gap-3 flex justify-center items-center flex-col rounded-sm">
+        {isalertMessage === false && (
+          <div className=" w-[95%] sm:w-[80%] md:w-[70%] lg:w-[50%] xl:w-[30%] h-[40%] bg-[rgba(0,0,0,0.40)]  z-10 fixed left-[50%] translate-x-[-50%] top-[50%] translate-y-[-50%] gap-3 flex justify-center items-center flex-col rounded-sm">
             <div className=" bg-[rgba(0,0,0,100)] rounded-full p-2 border-[rgba(255,255,255,0.70)] border-2">
-              <img className='w-7 h-7object-contain shrink-0' src={DoneIcon} alt="" />
+              <img className='w-7 h-7 object-contain shrink-0' src={DoneIcon} alt="" />
             </div>
             <div>
               <p className='text-center text-[rgba(255,255,255,0.70)]'><strong className='text-[rgba(255,255,255,100)]'>Thank you</strong>, I’ll reply as soon as possible. </p>
