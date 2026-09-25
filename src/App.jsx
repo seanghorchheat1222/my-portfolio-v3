@@ -15,6 +15,8 @@ function App() {
   const [isalertMessage, setIsAlertMessage] = useState(false);
   const [isPopup, setIsPopUp] = useState(false);
   const [project, setProject] = useState({});
+  const [loading, setLoading] = useState(false);
+
 
   useEffect(() => {
     document.body.style.overflow = "hidden";
@@ -299,7 +301,7 @@ function App() {
 
   const sendEmail = (e) => {
     e.preventDefault();
-
+    setLoading(true);
     emailjs.sendForm(
       'service_jt268gq',
       'template_nwyq62l',
@@ -314,11 +316,13 @@ function App() {
         audio.play();
 
         setTimeout(() => setIsAlertMessage(false), 3000)
+      setLoading(false);
       })
       .catch((error) => {
         alert('Failed to send message');
         console.log(error.text);
       })
+   
   }
 
   const toEmail = () => {
@@ -568,18 +572,20 @@ function App() {
 
           <form ref={form} onSubmit={sendEmail} action="">
             <div className='grid grid-cols-1 md:grid-cols-2 gap-[10%]'>
-              <input required type="text" name="user_name" placeholder='Your Full Name' className='border-b pl-2 border-[rgba(255,255,255,0.70)] outline-0 w-full mt-5 focus:border-[rgba(255,255,255,100)]' />
-              <input required type="text" name="user_email" placeholder='Your Email' className='border-b pl-2 border-[rgba(255,255,255,0.70)] outline-0 w-full mt-5 focus:border-[rgba(255,255,255,100)]' />
+              <input required type="text" name="user_name" placeholder='Your Full Name' className='border-b pl-2 border-[rgba(255,255,255,0.70)] outline-0 w-full mt-5 focus:border-[rgba(255,255,255,100)]' autoComplete="off" />
+              <input required type="text" name="user_email" placeholder='Your Email' className='border-b pl-2 border-[rgba(255,255,255,0.70)] outline-0 w-full mt-5 focus:border-[rgba(255,255,255,100)]' autoComplete="off" />
             </div>
             <div className='w-full'>
-              <textarea required name="message" type="text" placeholder='Your Description' className='border-b pl-2 border-[rgba(255,255,255,0.70)] outline-0 w-full h-30 mt-8 focus:border-[rgba(255,255,255,100)]' ></textarea>
+              <textarea required name="message" type="text" placeholder='Your Description' className='border-b pl-2 border-[rgba(255,255,255,0.70)] outline-0 w-full h-30 mt-8 focus:border-[rgba(255,255,255,100)]' autoComplete="off" ></textarea>
             </div>
             <div className='w-full mt-3'>
-              <button type='submit' className='group cursor-pointer w-full'>
+              <button type='submit' className='group cursor-pointer w-full' disabled={loading}>
                 <div className='p-0.5 rounded-full bg-[linear-gradient(to_right,rgba(255,255,255,0.50)_0%,rgba(0,0,0,0.50)_102%)] group-hover:bg-[linear-gradient(to_right,rgba(255,255,255,0.50)_100%,rgba(0,0,0,0.50)_100%)] transition-all duration-300 ease-in-out group-hover:shadow-[0px_0px_10px_rgba(255,255,255,0.50)] flex justify-center items-center'>
-                  <div className='bg-[rgba(0,0,0,100)] rounded-full w-full'>
-                    <div className='px-5 md:px-15 py-1.5 rounded-full curosr-pointer bg-[rgba(255,255,255,0.05)] relative z-1 group-active:bg-[rgba(255,255,255,0.70)] w-full'>
-                      <div>Send Message</div>
+                  <div className='bg-[rgba(0,0,0,100)] rounded-full w-full h-9'>
+                    <div className='px-5 md:px-15 h-full rounded-full curosr-pointer bg-[rgba(255,255,255,0.05)] relative z-1 group-active:bg-[rgba(255,255,255,0.70)] w-full flex items-center justify-center' >
+                      {
+                        loading ? <div className='border-[rgba(255,255,255,0.70)] rounded-full w-5 h-5 border-l-2 border-t-2 animate-spin'></div> : <div>Send Message</div>
+                      }
                     </div>
                   </div>
                 </div>
