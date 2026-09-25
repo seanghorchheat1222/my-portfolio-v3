@@ -521,7 +521,7 @@ function App() {
                       <div className='md:w-[45%]'>
                         <h1 className='text-xl md:text-2xl'>{project.title}</h1>
                         <p className='text-[rgba(255,255,255,0.70)] mt-1'>{project.description}</p>
-                        <div className='text-[rgba(255,255,255,0.70)] flex gap-3 mt-1'>
+                        <div className='text-[rgba(255,255,255,0.70)] flex gap-3 mt-1 flex-wrap'>
                           {
                             project.techs.map((tect, index) => <div key={index}>- {tect}</div>)
                           }
