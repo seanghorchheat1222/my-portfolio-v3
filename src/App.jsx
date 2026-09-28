@@ -161,7 +161,7 @@ function App() {
       id: 10,
       image: '/images/carrentalImg.png',
       title: "Carrental System",
-      description: "Carrental system for Admin + Website for customer can booking. Built with Authentication, Focus on business logic and Joining tables.",
+      description: "Carrental system for Admin + Website for customer can booking. Built with Authentication, Joining tables and Focus on real world work flow.",
       techs: [
         "React(JSX)",
         "Laravel",
@@ -479,7 +479,7 @@ function App() {
           </div>
           <div className='flex justify-end mt-1 md:mt-13'>
             <p className='md:w-[45%] text-[rgba(255,255,255,0.70)]'>
-              I am 22-year-old, Fresh graduate Computer Science from the Royal University of Phnom Penh with focus on Web Development. I have hands-on experience working with HTML, CSS, JavaScript, jQuery, Bootstrap, Tailwind CSS, React(JSX), Angular(TS), C#, ASP.NET, PHP, Laravel, SQL, NoSQL, Git and GitHub.<br></br>I am a self-motivated, reliable, responsible, and able to follow directions effectively. I communicate well with others, work frankly and honestly, and bring a strong commitment and creativity to every project I work on.<br></br>I am particularly excited about the opportunity to apply my skills and grow as a Web Developer within your team, where I can gaining more skills, experiences and learn from senior colleagues.
+              I am 22-year-old, Fresh graduate Computer Science from the Royal University of Phnom Penh with focus on Web Development. I have hands-on experience working with HTML, CSS, JavaScript, jQuery, Bootstrap, Tailwind CSS, React(JSX), Angular(TS), C#, ASP.NET, PHP, Laravel, SQL, NoSQL, Git and GitHub.<br></br>I am a self-motivated, reliable, responsible, and able to follow directions effectively. I communicate well with others, work frankly, flexible and honestly, and bring a strong commitment and creativity to every project I work on.<br></br>I am particularly excited about the opportunity to apply my skills and grow as a Web Developer within your team, where I can gaining more skills, experiences and learn from senior colleagues.
             </p>
           </div>
           <div className='md:w-[45%] mt-3 md:mt-15 flex justify-center flex-col md:hidden'>
