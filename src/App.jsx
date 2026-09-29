@@ -169,6 +169,18 @@ function App() {
       ],
       source: "https://github.com/seanghorchheat1222/car_rental"
     },
+    {
+      id: 11,
+      image: '/images/hmartImg.png',
+      title: "Hmart Mini Pos",
+      description: "Hmart Mini Pos for Admin(boss) and Staff(employees), Ingreated with KHQR sandbox, Tracking stock, Tracking orders by user and clean workflow.",
+      techs: [
+        "React(JSX)",
+        "Laravel",
+        "MySQL"
+      ],
+      source: "https://github.com/seanghorchheat1222/hmart"
+    },
   ]
 
   const onPopup = (id) => {
