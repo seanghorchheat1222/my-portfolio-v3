@@ -16,6 +16,7 @@ function App() {
   const [isPopup, setIsPopUp] = useState(false);
   const [project, setProject] = useState({});
   const [loading, setLoading] = useState(false);
+  const [progress, setProgress] = useState(0);
 
 
   useEffect(() => {
@@ -31,6 +32,38 @@ function App() {
       document.body.style.overflow = "auto";
     }
   }, [])
+
+ useEffect(() => {
+  const handleScroll = () => {
+    const section = document.getElementById("project");
+
+    if (!section) return;
+
+    const rect = section.getBoundingClientRect();
+
+    const sectionTop = rect.top + window.scrollY;
+    const sectionHeight = section.offsetHeight;
+    
+    // < 1440 
+    const scrollPosition = window.scrollY + window.innerHeight / (window.innerWidth <= 1440 ? 2 : 1.3);
+
+
+    let percentage =
+      ((scrollPosition - sectionTop) / sectionHeight) * 100;
+
+    percentage = Math.max(0, Math.min(100, percentage));
+
+    setProgress(percentage);
+  };
+
+  window.addEventListener("scroll", handleScroll);
+
+  handleScroll();
+
+  return () => {
+    window.removeEventListener("scroll", handleScroll);
+  };
+}, []);
 
 
   const skills = [
@@ -328,13 +361,13 @@ function App() {
         audio.play();
 
         setTimeout(() => setIsAlertMessage(false), 3000)
-      setLoading(false);
+        setLoading(false);
       })
       .catch((error) => {
         alert('Failed to send message');
         console.log(error.text);
       })
-   
+
   }
 
   const toEmail = () => {
@@ -522,8 +555,8 @@ function App() {
         <section id="project" className='mt-15'>
           <h1 className='text-xl md:text-2xl lg:text-3xl text-center md:text-start'>Projects</h1>
           <div className='relative w-full'>
-            <div className='absolute w-px h-full bg-[rgba(255,255,255,0.70)] top-0 left-[50%] hidden md:block'></div>
-
+            <div className='absolute w-px h-full bg-[rgba(255,255,255,0.70)] top-0 left-[50%] hidden md:block z-1'></div>
+            <div className='absolute w-px  bg-[rgba(255,255,255,100)] top-0 left-[50%] hidden md:block z-2 transition-all ease-in-out duration-300' style={{ height: `${progress}%` }}></div>
             {
               projects.map(project => {
                 return (
